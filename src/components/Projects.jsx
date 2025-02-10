@@ -14,7 +14,7 @@ export default function Projects() {
             description="
                 NextJS, PostgreSQL(supabase), Tailwindcss
             "
-            imageUrl='./warInd.png'
+            imageUrl='./music.png'
             />
 
             <Project

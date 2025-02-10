@@ -10,7 +10,7 @@ const Project = ({
         <div
             className="
                 bg-gray-300
-                m-1
+                m-6
                 p-2
                 rounded-xl
                 max-w-md
