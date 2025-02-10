@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Skills() {
   return (
-    <div className='flex justify-center bg-gray-300 border-b border-t border-black p-4 my-2 '>
-        <div className='border border-black bg-slate-100 rounded-lg p-2 '>
+    <div className='flex justify-center bg-gray-600 p-4 m-2 rounded-xl'>
+        <div className='bg-gray-300 rounded-lg p-2 '>
             <div className='border-b border-black'>
                 <h1>Technical Skills</h1>
             </div>

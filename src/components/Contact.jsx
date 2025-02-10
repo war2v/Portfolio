@@ -34,7 +34,7 @@ function Contact() {
               <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
               <span class="relative inline-flex rounded-full h-3 w-3 bg-purple-500"></span>
           </span>
-      <form className='border border-gray' onSubmit={onSubmit}>
+      <form onSubmit={onSubmit}>
             <input className='px-10' placeholder="Full Name" type="text" name="name"/>
             <input className='px-10 border-gray border-t' placeholder="Email" type="email" name="email"/>
             <input className='px-10 border-gray border-t' placeholder="Company" type="text" name="company"/>
