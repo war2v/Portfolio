@@ -7,7 +7,7 @@ import Projects from '../components/Projects'
 
 export default function Home() {
   return (
-    <div className='bg-slate-100 h-screen'>
+    <div className='bg-slate-100'>
       <Header/>
       <Hero/>
       <Skills/>

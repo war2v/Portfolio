@@ -9,7 +9,10 @@ const Project = ({
     return ( 
         <div
             className="
-                bg-gray-300
+                bg-gray-200 
+                shadow-lg 
+                border 
+                border-gray-300
                 m-6
                 p-2
                 rounded-xl
@@ -36,7 +39,6 @@ const Project = ({
                 
                 <h3 className="
                     overflow-auto 
-                    bg-gray-600 
                     m-2 
                     p-2 
                     text-center 
@@ -46,7 +48,7 @@ const Project = ({
                 ">
                     {description}
                 </h3>
-                <img className='h-[300px] w-[300px] rounded-lg'  src={imageUrl}/>
+                <img className='h-[300px] w-[600px] rounded-lg' src={imageUrl}/>
             </a>
         </div>
      );
