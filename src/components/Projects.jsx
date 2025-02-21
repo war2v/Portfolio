@@ -15,6 +15,7 @@ export default function Projects() {
                 NextJS, PostgreSQL(supabase), Tailwindcss
             "
             imageUrl='./music.png'
+            url='https://project-mov.netlify.app/'
             />
 
             <Project
@@ -23,7 +24,7 @@ export default function Projects() {
                 Flask, Bootstrap
             "
             imageUrl='./warInd.png'
-            url='https://project-mov.netlify.app/'
+            
             />
             
             
