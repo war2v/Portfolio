@@ -26,7 +26,7 @@ const Project = ({
                 group
             "
         >
-            <h1 className='group-hover:text-purple-600 group-hover:scale-105 transition '>{title}</h1>
+            <h1 className='group-hover:text-purple-600 transition '>{title}</h1>
             <a
             href={url}
             className="

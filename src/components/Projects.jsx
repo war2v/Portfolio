@@ -17,17 +17,15 @@ export default function Projects() {
             imageUrl='./music.png'
             url='https://project-mov.netlify.app/'
             />
-
             <Project
-            title="Game Studio Website" 
+            title="Property Management App" 
             description="
-                Flask, Bootstrap
+                NextJS, PostgreSQL(supabase), Tailwindcss
             "
-            imageUrl='./warInd.png'
+            imageUrl='./prop.png'
+            url="https://github.com/war2v/WTR-Capital-App"
             
             />
-            
-            
         </div>
         
         <div className='flex justify-center'>
@@ -58,6 +56,14 @@ export default function Projects() {
                 "
                 imageUrl='./r2d.png'
                 url='#'
+            />
+            <Project
+            title="Game Studio Website" 
+            description="
+                Flask, Bootstrap
+            "
+            imageUrl='./warInd.png'
+            
             />
         </div>
 
