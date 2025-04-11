@@ -48,7 +48,7 @@ const Project = ({
                 ">
                     {description}
                 </h3>
-                <img className='h-[300px] w-[600px] rounded-lg' src={imageUrl}/>
+                <img className='group-hover:scale-105 h-[300px] w-[350px] rounded-lg transition' src={imageUrl}/>
             </a>
         </div>
      );

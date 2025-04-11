@@ -3,7 +3,7 @@ import Project from './Project'
 
 export default function Projects() {
   return (
-    <section className=' p-2 m-2'>
+    <section className='p-2 m-2'>
         <div className='flex pb-4 justify-center border-b border-gray-300'>
             <h1 className='font-bold text-4xl text-slate-800'>Projects</h1>
         </div>
@@ -63,7 +63,7 @@ export default function Projects() {
                 Flask, Bootstrap
             "
             imageUrl='./warInd.png'
-            
+            url='#'
             />
         </div>
 
