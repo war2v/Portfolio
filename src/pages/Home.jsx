@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import Skills from '../components/Skills'
 import Contact from '../components/Contact'
 import Projects from '../components/Projects'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Skills/>
       <Projects/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

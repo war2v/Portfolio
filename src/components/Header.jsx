@@ -15,9 +15,9 @@ export default function Header() {
             </div>
         </div>
         <ul className="float-right flex m-2">
-            <HeaderItem href="/about"> About Me</HeaderItem>
+            <HeaderItem href="/blog"> Blog</HeaderItem>
             <HeaderItem href="#">Projects</HeaderItem>
-            <HeaderItem href="#">Contact Me</HeaderItem>
+            <HeaderItem href="/contact">Contact Me</HeaderItem>
         </ul>
     </nav>
   )

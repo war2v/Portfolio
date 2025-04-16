@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 
-const About = () => {
+const Blog = () => {
     return ( 
         <div className='bg-slate-100 pb-10'>
             <Header/>
@@ -9,7 +9,7 @@ const About = () => {
                 <p className='text-3xl text-center p-2 pt-4'><span className='text-purple-500'>Software Engineer</span><span className='text-purple-500'> | Full-Stack Developer</span></p>
                 <div className='flex flex-col text-xl text-center p-2 pt-4 m-4 gap-y-4'>
                     <p > 
-                        Hi, I’m Warren Russell, a Computer Science graduate passionate about building powerful, user-focused applications that solve real problems. I specialize in full-stack development using JavaScript, Python, Next.js, and SQL, and I’ve also worked with C++ for lower-level systems and algorithm-heavy projects.
+                        Hi, I’m Warren Russell, a Computer Science graduate passionate Blog building powerful, user-focused applications that solve real problems. I specialize in full-stack development using JavaScript, Python, Next.js, and SQL, and I’ve also worked with C++ for lower-level systems and algorithm-heavy projects.
                     </p>
                     <p>
                         Over the past year, I’ve developed a series of personal projects—from a Leetcode progress tracker to a real-time Google Docs clone—that showcase my ability to design, build, and ship full-featured applications.
@@ -26,4 +26,4 @@ const About = () => {
      );
 }
  
-export default About;
+export default Blog;

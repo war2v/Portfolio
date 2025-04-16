@@ -32,38 +32,38 @@ export default function Projects() {
            <Project 
                 title="BLACKJACK SIMULATOR" 
                 description="
-                    PHP
+                    PHP HACK CSS
                 "
                 imageUrl='./bj.png'
-                url='#'
+                url='https://github.com/Jordan-Cormier-7/BlackJack-Simulator'
             />
 
             <Project 
-                title="DRIVING SIMULATOR" 
+                title="VANDERBILT DRIVING SIMULATOR" 
                 description="
-                    Flask, Bootstrap
+                    Flask, Python, Javascript, Html, CSS Bootstrap
                 "
                 imageUrl='./vds.png'
-                url='#'
+                url='https://github.com/VU-RASL/Vanderbilt-Driving-Simulator'
             />
         </div>
 
         <div className='flex justify-center'>
             <Project 
-                title="RUIN HUNTER 2D" 
+                title="ENVOY INVOICING (IN PROGRESS)" 
                 description="
                     Python, Pygame
                 "
-                imageUrl='./r2d.png'
+                imageUrl='./envoy.png'
                 url='#'
             />
             <Project
-            title="Game Studio Website" 
+            title="WAR INDUSTRIES APP" 
             description="
-                Flask, Bootstrap
+                Flask, Python, Html, CSS, Bootstrap
             "
             imageUrl='./warInd.png'
-            url='#'
+            url='https://github.com/war2v/WAR-Industries-Webapp'
             />
         </div>
 
