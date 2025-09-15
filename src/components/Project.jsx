@@ -20,7 +20,6 @@ const Project = ({
                 flex
                 flex-col
                 w-[400px]
-                h-[450px]
                 transition
                 items-center
                 group
@@ -48,7 +47,7 @@ const Project = ({
                 ">
                     {description}
                 </h3>
-                <img className='group-hover:scale-105 h-[300px] w-[350px] rounded-lg transition' src={imageUrl}/>
+                <img className='group-hover:scale-102 rounded-lg transition' src={imageUrl}/>
             </a>
         </div>
      );
